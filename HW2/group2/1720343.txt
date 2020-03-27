@@ -1,0 +1,29 @@
+
+OmegaZero@LAPTOP-MO48DI04 MINGW64 ~/1720343 (master)
+$ git clone http://github.com/1720343/1720343.git
+Cloning into '1720343'...
+warning: redirecting to https://github.com/1720343/1720343.git/
+warning: You appear to have cloned an empty repository.
+
+OmegaZero@LAPTOP-MO48DI04 MINGW64 ~/1720343 (master)
+$ cd 1720343
+
+OmegaZero@LAPTOP-MO48DI04 MINGW64 ~/1720343/1720343 (master)
+$ git add 1720343.txt
+
+OmegaZero@LAPTOP-MO48DI04 MINGW64 ~/1720343/1720343 (master)
+$ git commit -m "first commit"
+[master (root-commit) ce4ea56] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 1720343.txt
+
+OmegaZero@LAPTOP-MO48DI04 MINGW64 ~/1720343/1720343 (master)
+$ git push -u origin master
+warning: redirecting to https://github.com/1720343/1720343.git/
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 206 bytes | 206.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To http://github.com/1720343/1720343.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
